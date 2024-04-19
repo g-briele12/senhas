@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+body{
+    color: white;
+    background-color: #00162E;
+}
+:root{
+    --branco: white;
+    --cor-de-fundo: #00162E;
+}
+
+body{
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+}
+:root{
+    --branco: white;
+    --cor-de-fundo: #00162E;
+    --fundo-senha: #00244D;
+    --fundo-texto: #001E40;
+    --borda: #0075FF;
+}
+:root{
+    --branco: white;
+    --cor-de-fundo: #00162E;
+    --fundo-senha: #00244D;
+    --fundo-texto: #001E40;
+    --borda: #0075FF;
+    --roboto: 'Roboto', sans-serif;
+    --roboto-mono: 'Roboto Mono', monospace;
+}
+body{
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--roboto);
+}
+.titulo-principal{
+    font-family: var(--roboto-mono);
+    font-size: 32px;
+}
+.titulo-secundario{
+    font-size: 24px;
+}
+:root{
+    --/* Código omitido */
+    }
+    
+    * font-weight: 400;
+    .conteudo-titulo{
+        /* Código omitido */
+    }
+    
+    .conteudo-senha{
+        background: var(--fundo-senha);
+    }
+    .conteudo-titulo{
+        /* Código omitido */
+    }
+    
+    .conteudo-senha{
+        background: var(--fundo-senha);
+        padding: 24px;
+    }
+    .conteudo-senha{
+        background: var(--fundo-senha);
+        padding: 24px;
+        border-bottom: 6px solid var(--borda);
+    }
+                
+    
+
+    
